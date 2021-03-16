@@ -200,6 +200,11 @@ body {
 
 .home__img {
   width: 100%;
+  grid-column: 1 / -1;
+}
+
+.home__name {
+  grid-column: 1 / -1;
 }
 
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {

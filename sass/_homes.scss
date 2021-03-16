@@ -15,7 +15,7 @@
 
     &__img {
         width: 100%;
-        // grid-column: 1 / -1;
+        grid-column: 1 / -1;
     }
 
     &__like {
@@ -23,7 +23,7 @@
     }
 
     &__name {
-
+        grid-column: 1 / -1;
     }
 
     &__location,
@@ -41,4 +41,5 @@
 
         }
     }
+
 }

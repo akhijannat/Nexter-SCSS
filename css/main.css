@@ -234,6 +234,10 @@ body {
   transform: translateY(50%);
 }
 
+.home__location, .home__rooms {
+  margin-top: 2.5rem;
+}
+
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
   fill: #c69963;
   height: 2rem;

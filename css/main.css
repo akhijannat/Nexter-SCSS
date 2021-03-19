@@ -345,5 +345,6 @@ body {
 .footer {
   background-color: #101d2c;
   grid-column: full-start / full-end;
+  padding: 8rem;
 }
 /*# sourceMappingURL=main.css.map */

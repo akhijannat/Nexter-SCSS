@@ -8,18 +8,21 @@
     list-style: none;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 2rem;
+    align-items: center;
 
     &__link:link,
     &__link:visited {
-        font-size: 1.4erm;
+        font-size: 1.4rem;
         color: #fff;
         text-decoration: none;
-        text-transform: uppercase;
         font-family: $font-display;
+        text-transform: uppercase;
         text-align: center;
         padding: 1.5rem;
+        display: block;
 
-        background-color: rgb(#fff, .05);
+        background-color: rgba(#fff, .05);
     }
 }

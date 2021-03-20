@@ -199,6 +199,8 @@ body {
   display: grid;
   align-content: center;
   justify-content: center;
+  justify-items: center;
+  grid-row-gap: 2rem;
 }
 
 .realtors__list {

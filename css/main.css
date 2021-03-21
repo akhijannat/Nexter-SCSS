@@ -164,6 +164,13 @@ body {
 @media only screen and (max-width: 62.5em) {
   .nav-btn {
     margin-top: 0;
+    margin-right: 3rem;
+  }
+  .nav-btn::before {
+    transform: translateY(-1.2rem);
+  }
+  .nav-btn::after {
+    transform: translateY(1rem);
   }
 }
 
